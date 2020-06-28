@@ -82,10 +82,10 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ayarlarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.hakkındaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.çıkışToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label11 = new System.Windows.Forms.Label();
             this.notify_Icon = new System.Windows.Forms.NotifyIcon(this.components);
             this.fontDialog1 = new System.Windows.Forms.FontDialog();
-            this.çıkışToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.metroPanelCategory1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
@@ -269,9 +269,9 @@
             this.label1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(9, 374);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 18);
+            this.label1.Size = new System.Drawing.Size(113, 18);
             this.label1.TabIndex = 12;
-            this.label1.Text = "AlSimits VBeta";
+            this.label1.Text = "AlSimits Alfa";
             // 
             // pictureBox23
             // 
@@ -534,7 +534,7 @@
             // içeAktarToolStripMenuItem
             // 
             this.içeAktarToolStripMenuItem.Name = "içeAktarToolStripMenuItem";
-            this.içeAktarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.içeAktarToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.içeAktarToolStripMenuItem.Text = "İçe Aktar";
             // 
             // dışaAktarToolStripMenuItem
@@ -543,7 +543,7 @@
             this.şifreliToolStripMenuItem,
             this.şifresizToolStripMenuItem});
             this.dışaAktarToolStripMenuItem.Name = "dışaAktarToolStripMenuItem";
-            this.dışaAktarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.dışaAktarToolStripMenuItem.Size = new System.Drawing.Size(127, 22);
             this.dışaAktarToolStripMenuItem.Text = "Dışa Aktar";
             // 
             // şifreliToolStripMenuItem
@@ -615,6 +615,13 @@
             this.hakkındaToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.hakkındaToolStripMenuItem.Text = "Hakkında";
             // 
+            // çıkışToolStripMenuItem
+            // 
+            this.çıkışToolStripMenuItem.Name = "çıkışToolStripMenuItem";
+            this.çıkışToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.çıkışToolStripMenuItem.Text = "Çıkış";
+            this.çıkışToolStripMenuItem.Click += new System.EventHandler(this.çıkışToolStripMenuItem_Click);
+            // 
             // label11
             // 
             this.label11.AutoSize = true;
@@ -633,13 +640,6 @@
             // fontDialog1
             // 
             this.fontDialog1.Apply += new System.EventHandler(this.btn_ChangeFont_Click);
-            // 
-            // çıkışToolStripMenuItem
-            // 
-            this.çıkışToolStripMenuItem.Name = "çıkışToolStripMenuItem";
-            this.çıkışToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
-            this.çıkışToolStripMenuItem.Text = "Çıkış";
-            this.çıkışToolStripMenuItem.Click += new System.EventHandler(this.çıkışToolStripMenuItem_Click);
             // 
             // Form1
             // 

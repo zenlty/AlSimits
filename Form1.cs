@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MetroSuite;
 using System.Reflection;
+using System.Net;
 
 namespace AlSimits
 {
@@ -210,7 +211,8 @@ namespace AlSimits
         {
             if (yaz.Text == "" || yaz.Text == null)
             {
-                bildirim("Uyarı", "Kayıt edilecek bir not bulunmamaktadır.");
+
+                MessageBox.Show("Uyarı", "Kayıt edilecek bir not bulunmamaktadır.",MessageBoxButtons.OK,MessageBoxIcon.Error);
 
             }
             else
